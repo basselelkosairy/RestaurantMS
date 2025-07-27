@@ -1,0 +1,122 @@
+﻿@model IEnumerable<Resturant_System.Models.Order>
+@using System.Text.Json
+
+
+@{
+    ViewData["Title"] = "Orders";
+}
+@section Styles {
+    <link rel="stylesheet" href="~/css/orders.css" />
+}
+
+<h1>Orders</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>@Html.DisplayNameFor(model => model.Type)</th>
+            <th>@Html.DisplayNameFor(model => model.Status)</th>
+            <th>@Html.DisplayNameFor(model => model.CreatedAt)</th>
+            <th>@Html.DisplayNameFor(model => model.DeliveryAddress)</th>
+            <th>@Html.DisplayNameFor(model => model.Total)</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr id="row-@item.Id">
+                <td><span class="view-mode">@item.Type</span><input class="edit-mode form-control" type="text" value="@item.Type" name="Type" style="display:none;" /></td>
+                <td><span class="view-mode">@item.Status</span><input class="edit-mode form-control" type="text" value="@item.Status" name="Status" style="display:none;" /></td>
+                <td>@item.CreatedAt.ToString("yyyy-MM-dd")</td>
+                <td><span class="view-mode">@item.DeliveryAddress</span><input class="edit-mode form-control" type="text" value="@item.DeliveryAddress" name="DeliveryAddress" style="display:none;" /></td>
+                <td><span class="view-mode">@item.Total</span><input class="edit-mode form-control" type="number" value="@item.Total" name="Total" style="display:none;" /></td>
+                <td>
+                    <button class="btn btn-sm btn-primary edit-btn" data-id="@item.Id">Edit</button>
+                    <button class="btn btn-sm btn-success save-btn" data-id="@item.Id" style="display:none;">Save</button>
+                    <a class="btn btn-sm btn-danger " asp-action="Delete" asp-controller="Order" asp-route-id="@item.Id">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+@if (TempData["Error"] != null)
+{
+    <div class="alert alert-danger">@TempData["Error"]</div>
+}
+
+@if (TempData["Success"] != null)
+{
+    <div class="alert alert-success">@TempData["Success"]</div>
+}
+
+<form id="updateForm" method="post" asp-action="EditOrder" style="display:none;">
+    <input type="hidden" name="Id" id="formId" />
+    <input type="hidden" name="Type" id="formType" />
+    <input type="hidden" name="Status" id="formStatus" />
+    <input type="hidden" name="DeliveryAddress" id="formDeliveryAddress" />
+    <input type="hidden" name="Total" id="formTotal" />
+</form>
+<script>
+    window.orderTypes = @Html.Raw(JsonSerializer.Serialize(
+        ((List<SelectListItem>)ViewBag.OrderTypes).Select(x => new { value = x.Value, text = x.Text })
+    ));
+    window.orderStatuses = @Html.Raw(JsonSerializer.Serialize(
+        ((List<SelectListItem>)ViewBag.OrderStatuses).Select(x => new { value = x.Value, text = x.Text })
+    ));
+</script>
+
+<script>
+   
+    document.querySelectorAll('.edit-btn').forEach(btn => {
+        btn.addEventListener('click', function () {
+            let row = document.getElementById("row-" + this.dataset.id);
+
+            const currentType = row.querySelector('span.view-mode').textContent.trim();
+            const currentStatus = row.querySelectorAll('span.view-mode')[1].textContent.trim();
+
+            // Replace Type input with dropdown
+            const typeCell = row.querySelector('input[name="Type"]').parentElement;
+            typeCell.innerHTML = `<select name="Type" class="form-control edit-mode">
+                ${window.orderTypes.map(o => `<option value="${o.value}" ${o.value === currentType ? "selected" : ""}>${o.text}</option>`).join("")}
+            </select>`;
+
+            // Replace Status input with dropdown
+            const statusCell = row.querySelector('input[name="Status"]').parentElement;
+            statusCell.innerHTML = `<select name="Status" class="form-control edit-mode">
+                ${window.orderStatuses.map(s => `<option value="${s.value}" ${s.value === currentStatus ? "selected" : ""}>${s.text}</option>`).join("")}
+            </select>`;
+
+            // Show editable inputs
+            row.querySelectorAll('.view-mode').forEach(el => el.style.display = 'none');
+            row.querySelectorAll('.edit-mode').forEach(el => el.style.display = 'inline');
+            row.querySelector('.edit-btn').style.display = 'none';
+            row.querySelector('.save-btn').style.display = 'inline';
+        });
+    });
+
+    document.querySelectorAll('.save-btn').forEach(btn => {
+        btn.addEventListener('click', function () {
+            let row = document.getElementById("row-" + this.dataset.id);
+            let id = this.dataset.id;
+
+            // Get updated values from form
+            let type = row.querySelector('select[name="Type"]').value;
+            let status = row.querySelector('select[name="Status"]').value;
+            let deliveryAddress = row.querySelector('input[name="DeliveryAddress"]').value;
+            let total = row.querySelector('input[name="Total"]').value;
+
+            document.getElementById('formId').value = id;
+            document.getElementById('formType').value = type;
+            document.getElementById('formStatus').value = status;
+            document.getElementById('formDeliveryAddress').value = deliveryAddress;
+            document.getElementById('formTotal').value = total;
+
+            document.getElementById('updateForm').submit();
+        });
+    });
+</script>

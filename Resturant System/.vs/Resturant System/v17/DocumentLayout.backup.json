@@ -1,0 +1,1135 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "G:\\ITI DOT NET\\mvc\\Project\\Project\\Restaurant MS\\Resturant System\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CB99DEB7-DBEE-472A-9D14-B4671634B6C7}|..\\Domain\\Domain.csproj|g:\\iti dot net\\mvc\\project\\project\\restaurant ms\\domain\\entities\\reservation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1095C2CF-0EF2-4239-9BBA-FDCA5084129F}|Resturant System.csproj|g:\\iti dot net\\mvc\\project\\project\\restaurant ms\\resturant system\\views\\reservation\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1095C2CF-0EF2-4239-9BBA-FDCA5084129F}|Resturant System.csproj|solutionrelative:views\\reservation\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1095C2CF-0EF2-4239-9BBA-FDCA5084129F}|Resturant System.csproj|g:\\iti dot net\\mvc\\project\\project\\restaurant ms\\resturant system\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1095C2CF-0EF2-4239-9BBA-FDCA5084129F}|Resturant System.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1095C2CF-0EF2-4239-9BBA-FDCA5084129F}|Resturant System.csproj|g:\\iti dot net\\mvc\\project\\project\\restaurant ms\\resturant system\\controllers\\reservationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1095C2CF-0EF2-4239-9BBA-FDCA5084129F}|Resturant System.csproj|solutionrelative:controllers\\reservationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1095C2CF-0EF2-4239-9BBA-FDCA5084129F}|Resturant System.csproj|g:\\iti dot net\\mvc\\project\\project\\restaurant ms\\resturant system\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1095C2CF-0EF2-4239-9BBA-FDCA5084129F}|Resturant System.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1095C2CF-0EF2-4239-9BBA-FDCA5084129F}|Resturant System.csproj|g:\\iti dot net\\mvc\\project\\project\\restaurant ms\\resturant system\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1095C2CF-0EF2-4239-9BBA-FDCA5084129F}|Resturant System.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1095C2CF-0EF2-4239-9BBA-FDCA5084129F}|Resturant System.csproj|g:\\iti dot net\\mvc\\project\\project\\restaurant ms\\resturant system\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1095C2CF-0EF2-4239-9BBA-FDCA5084129F}|Resturant System.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1095C2CF-0EF2-4239-9BBA-FDCA5084129F}|Resturant System.csproj|g:\\iti dot net\\mvc\\project\\project\\restaurant ms\\resturant system\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1095C2CF-0EF2-4239-9BBA-FDCA5084129F}|Resturant System.csproj|solutionrelative:controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C683C85B-88A4-467D-B35F-7E571AF06842}|..\\Application\\Application.csproj|g:\\iti dot net\\mvc\\project\\project\\restaurant ms\\application\\services\\implementations\\dashboardservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C683C85B-88A4-467D-B35F-7E571AF06842}|..\\Application\\Application.csproj|g:\\iti dot net\\mvc\\project\\project\\restaurant ms\\application\\services\\abstractions\\idashboardservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03A489B8-0637-4EAE-AEFC-167C300B7A1D}|..\\Infrastructure\\Infrastructure.csproj|g:\\iti dot net\\mvc\\project\\project\\restaurant ms\\infrastructure\\repositeries\\dashboardrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C683C85B-88A4-467D-B35F-7E571AF06842}|..\\Application\\Application.csproj|g:\\iti dot net\\mvc\\project\\project\\restaurant ms\\application\\contracts\\idashboardrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1095C2CF-0EF2-4239-9BBA-FDCA5084129F}|Resturant System.csproj|g:\\iti dot net\\mvc\\project\\project\\restaurant ms\\resturant system\\middleware\\businesshoursmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1095C2CF-0EF2-4239-9BBA-FDCA5084129F}|Resturant System.csproj|solutionrelative:middleware\\businesshoursmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03A489B8-0637-4EAE-AEFC-167C300B7A1D}|..\\Infrastructure\\Infrastructure.csproj|g:\\iti dot net\\mvc\\project\\project\\restaurant ms\\infrastructure\\repositeries\\cateogryrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C683C85B-88A4-467D-B35F-7E571AF06842}|..\\Application\\Application.csproj|g:\\iti dot net\\mvc\\project\\project\\restaurant ms\\application\\services\\implementations\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C683C85B-88A4-467D-B35F-7E571AF06842}|..\\Application\\Application.csproj|g:\\iti dot net\\mvc\\project\\project\\restaurant ms\\application\\services\\abstractions\\icategoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C683C85B-88A4-467D-B35F-7E571AF06842}|..\\Application\\Application.csproj|g:\\iti dot net\\mvc\\project\\project\\restaurant ms\\application\\contracts\\icateogryrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1095C2CF-0EF2-4239-9BBA-FDCA5084129F}|Resturant System.csproj|g:\\iti dot net\\mvc\\project\\project\\restaurant ms\\resturant system\\controllers\\settingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1095C2CF-0EF2-4239-9BBA-FDCA5084129F}|Resturant System.csproj|solutionrelative:controllers\\settingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1095C2CF-0EF2-4239-9BBA-FDCA5084129F}|Resturant System.csproj|g:\\iti dot net\\mvc\\project\\project\\restaurant ms\\resturant system\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1095C2CF-0EF2-4239-9BBA-FDCA5084129F}|Resturant System.csproj|solutionrelative:controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1095C2CF-0EF2-4239-9BBA-FDCA5084129F}|Resturant System.csproj|g:\\iti dot net\\mvc\\project\\project\\restaurant ms\\resturant system\\controllers\\menuecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1095C2CF-0EF2-4239-9BBA-FDCA5084129F}|Resturant System.csproj|solutionrelative:controllers\\menuecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1095C2CF-0EF2-4239-9BBA-FDCA5084129F}|Resturant System.csproj|g:\\iti dot net\\mvc\\project\\project\\restaurant ms\\resturant system\\views\\order\\editorder.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1095C2CF-0EF2-4239-9BBA-FDCA5084129F}|Resturant System.csproj|solutionrelative:views\\order\\editorder.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1095C2CF-0EF2-4239-9BBA-FDCA5084129F}|Resturant System.csproj|g:\\iti dot net\\mvc\\project\\project\\restaurant ms\\resturant system\\views\\menue\\menueadd.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1095C2CF-0EF2-4239-9BBA-FDCA5084129F}|Resturant System.csproj|solutionrelative:views\\menue\\menueadd.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1095C2CF-0EF2-4239-9BBA-FDCA5084129F}|Resturant System.csproj|g:\\iti dot net\\mvc\\project\\project\\restaurant ms\\resturant system\\views\\order\\createform.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1095C2CF-0EF2-4239-9BBA-FDCA5084129F}|Resturant System.csproj|solutionrelative:views\\order\\createform.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03A489B8-0637-4EAE-AEFC-167C300B7A1D}|..\\Infrastructure\\Infrastructure.csproj|g:\\iti dot net\\mvc\\project\\project\\restaurant ms\\infrastructure\\data\\resturantdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB99DEB7-DBEE-472A-9D14-B4671634B6C7}|..\\Domain\\Domain.csproj|g:\\iti dot net\\mvc\\project\\project\\restaurant ms\\domain\\entities\\table.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1095C2CF-0EF2-4239-9BBA-FDCA5084129F}|Resturant System.csproj|g:\\iti dot net\\mvc\\project\\project\\restaurant ms\\resturant system\\viewmodel\\dashboardviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1095C2CF-0EF2-4239-9BBA-FDCA5084129F}|Resturant System.csproj|solutionrelative:viewmodel\\dashboardviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1095C2CF-0EF2-4239-9BBA-FDCA5084129F}|Resturant System.csproj|g:\\iti dot net\\mvc\\project\\project\\restaurant ms\\resturant system\\wwwroot\\js\\order-form.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{1095C2CF-0EF2-4239-9BBA-FDCA5084129F}|Resturant System.csproj|solutionrelative:wwwroot\\js\\order-form.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1095C2CF-0EF2-4239-9BBA-FDCA5084129F}|Resturant System.csproj|g:\\iti dot net\\mvc\\project\\project\\restaurant ms\\resturant system\\wwwroot\\css\\order-form.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{1095C2CF-0EF2-4239-9BBA-FDCA5084129F}|Resturant System.csproj|solutionrelative:wwwroot\\css\\order-form.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C683C85B-88A4-467D-B35F-7E571AF06842}|..\\Application\\Application.csproj|g:\\iti dot net\\mvc\\project\\project\\restaurant ms\\application\\services\\implementations\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C683C85B-88A4-467D-B35F-7E571AF06842}|..\\Application\\Application.csproj|g:\\iti dot net\\mvc\\project\\project\\restaurant ms\\application\\dto\\ordercreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1095C2CF-0EF2-4239-9BBA-FDCA5084129F}|Resturant System.csproj|g:\\iti dot net\\mvc\\project\\project\\restaurant ms\\resturant system\\services\\orderstatusupdaterservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1095C2CF-0EF2-4239-9BBA-FDCA5084129F}|Resturant System.csproj|solutionrelative:services\\orderstatusupdaterservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C683C85B-88A4-467D-B35F-7E571AF06842}|..\\Application\\Application.csproj|g:\\iti dot net\\mvc\\project\\project\\restaurant ms\\application\\services\\implementations\\menueservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB99DEB7-DBEE-472A-9D14-B4671634B6C7}|..\\Domain\\Domain.csproj|g:\\iti dot net\\mvc\\project\\project\\restaurant ms\\domain\\entities\\menue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB99DEB7-DBEE-472A-9D14-B4671634B6C7}|..\\Domain\\Domain.csproj|g:\\iti dot net\\mvc\\project\\project\\restaurant ms\\domain\\entities\\orderitems.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1095C2CF-0EF2-4239-9BBA-FDCA5084129F}|Resturant System.csproj|g:\\iti dot net\\mvc\\project\\project\\restaurant ms\\resturant system\\services\\menuresetservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1095C2CF-0EF2-4239-9BBA-FDCA5084129F}|Resturant System.csproj|solutionrelative:services\\menuresetservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03A489B8-0637-4EAE-AEFC-167C300B7A1D}|..\\Infrastructure\\Infrastructure.csproj|g:\\iti dot net\\mvc\\project\\project\\restaurant ms\\infrastructure\\repositeries\\orderrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C683C85B-88A4-467D-B35F-7E571AF06842}|..\\Application\\Application.csproj|g:\\iti dot net\\mvc\\project\\project\\restaurant ms\\application\\dto\\orderitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1095C2CF-0EF2-4239-9BBA-FDCA5084129F}|Resturant System.csproj|g:\\iti dot net\\mvc\\project\\project\\restaurant ms\\resturant system\\views\\order\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1095C2CF-0EF2-4239-9BBA-FDCA5084129F}|Resturant System.csproj|solutionrelative:views\\order\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C683C85B-88A4-467D-B35F-7E571AF06842}|..\\Application\\Application.csproj|g:\\iti dot net\\mvc\\project\\project\\restaurant ms\\application\\services\\abstractions\\iorderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03A489B8-0637-4EAE-AEFC-167C300B7A1D}|..\\Infrastructure\\Infrastructure.csproj|g:\\iti dot net\\mvc\\project\\project\\restaurant ms\\infrastructure\\repositeries\\genericrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C683C85B-88A4-467D-B35F-7E571AF06842}|..\\Application\\Application.csproj|g:\\iti dot net\\mvc\\project\\project\\restaurant ms\\application\\contracts\\iorderrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03A489B8-0637-4EAE-AEFC-167C300B7A1D}|..\\Infrastructure\\Infrastructure.csproj|g:\\iti dot net\\mvc\\project\\project\\restaurant ms\\infrastructure\\repositeries\\menuerepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1095C2CF-0EF2-4239-9BBA-FDCA5084129F}|Resturant System.csproj|g:\\iti dot net\\mvc\\project\\project\\restaurant ms\\resturant system\\resturant system.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{1095C2CF-0EF2-4239-9BBA-FDCA5084129F}|Resturant System.csproj|solutionrelative:resturant system.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C683C85B-88A4-467D-B35F-7E571AF06842}|..\\Application\\Application.csproj|g:\\iti dot net\\mvc\\project\\project\\restaurant ms\\application\\contracts\\imenuerepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1095C2CF-0EF2-4239-9BBA-FDCA5084129F}|Resturant System.csproj|g:\\iti dot net\\mvc\\project\\project\\restaurant ms\\resturant system\\views\\menue\\viewitems.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1095C2CF-0EF2-4239-9BBA-FDCA5084129F}|Resturant System.csproj|solutionrelative:views\\menue\\viewitems.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1095C2CF-0EF2-4239-9BBA-FDCA5084129F}|Resturant System.csproj|g:\\iti dot net\\mvc\\project\\project\\restaurant ms\\resturant system\\wwwroot\\css\\meneu-view.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{1095C2CF-0EF2-4239-9BBA-FDCA5084129F}|Resturant System.csproj|solutionrelative:wwwroot\\css\\meneu-view.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1095C2CF-0EF2-4239-9BBA-FDCA5084129F}|Resturant System.csproj|g:\\iti dot net\\mvc\\project\\project\\restaurant ms\\resturant system\\wwwroot\\js\\meneu-view.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{1095C2CF-0EF2-4239-9BBA-FDCA5084129F}|Resturant System.csproj|solutionrelative:wwwroot\\js\\meneu-view.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1095C2CF-0EF2-4239-9BBA-FDCA5084129F}|Resturant System.csproj|g:\\iti dot net\\mvc\\project\\project\\restaurant ms\\resturant system\\viewmodel\\menuecatviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1095C2CF-0EF2-4239-9BBA-FDCA5084129F}|Resturant System.csproj|solutionrelative:viewmodel\\menuecatviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C683C85B-88A4-467D-B35F-7E571AF06842}|..\\Application\\Application.csproj|g:\\iti dot net\\mvc\\project\\project\\restaurant ms\\application\\services\\abstractions\\imenueservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03A489B8-0637-4EAE-AEFC-167C300B7A1D}|..\\Infrastructure\\Infrastructure.csproj|g:\\iti dot net\\mvc\\project\\project\\restaurant ms\\infrastructure\\data\\resturantdbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|G:\\ITI DOT NET\\mvc\\Project\\Project\\Restaurant MS\\Infrastructure\\Migrations\\20250620091709_Seeding.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1095C2CF-0EF2-4239-9BBA-FDCA5084129F}|Resturant System.csproj|g:\\iti dot net\\mvc\\project\\project\\restaurant ms\\resturant system\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{1095C2CF-0EF2-4239-9BBA-FDCA5084129F}|Resturant System.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1095C2CF-0EF2-4239-9BBA-FDCA5084129F}|Resturant System.csproj|g:\\iti dot net\\mvc\\project\\project\\restaurant ms\\resturant system\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1095C2CF-0EF2-4239-9BBA-FDCA5084129F}|Resturant System.csproj|solutionrelative:views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1095C2CF-0EF2-4239-9BBA-FDCA5084129F}|Resturant System.csproj|g:\\iti dot net\\mvc\\project\\project\\restaurant ms\\resturant system\\wwwroot\\css\\orders.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{1095C2CF-0EF2-4239-9BBA-FDCA5084129F}|Resturant System.csproj|solutionrelative:wwwroot\\css\\orders.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1095C2CF-0EF2-4239-9BBA-FDCA5084129F}|Resturant System.csproj|g:\\iti dot net\\mvc\\project\\project\\restaurant ms\\resturant system\\views\\categories\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1095C2CF-0EF2-4239-9BBA-FDCA5084129F}|Resturant System.csproj|solutionrelative:views\\categories\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1095C2CF-0EF2-4239-9BBA-FDCA5084129F}|Resturant System.csproj|g:\\iti dot net\\mvc\\project\\project\\restaurant ms\\resturant system\\views\\categories\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1095C2CF-0EF2-4239-9BBA-FDCA5084129F}|Resturant System.csproj|solutionrelative:views\\categories\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1095C2CF-0EF2-4239-9BBA-FDCA5084129F}|Resturant System.csproj|g:\\iti dot net\\mvc\\project\\project\\restaurant ms\\resturant system\\views\\categories\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1095C2CF-0EF2-4239-9BBA-FDCA5084129F}|Resturant System.csproj|solutionrelative:views\\categories\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1095C2CF-0EF2-4239-9BBA-FDCA5084129F}|Resturant System.csproj|g:\\iti dot net\\mvc\\project\\project\\restaurant ms\\resturant system\\views\\categories\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1095C2CF-0EF2-4239-9BBA-FDCA5084129F}|Resturant System.csproj|solutionrelative:views\\categories\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1095C2CF-0EF2-4239-9BBA-FDCA5084129F}|Resturant System.csproj|g:\\iti dot net\\mvc\\project\\project\\restaurant ms\\resturant system\\views\\categories\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1095C2CF-0EF2-4239-9BBA-FDCA5084129F}|Resturant System.csproj|solutionrelative:views\\categories\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1095C2CF-0EF2-4239-9BBA-FDCA5084129F}|Resturant System.csproj|g:\\iti dot net\\mvc\\project\\project\\restaurant ms\\resturant system\\wwwroot\\css\\menueadd-form.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{1095C2CF-0EF2-4239-9BBA-FDCA5084129F}|Resturant System.csproj|solutionrelative:wwwroot\\css\\menueadd-form.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1095C2CF-0EF2-4239-9BBA-FDCA5084129F}|Resturant System.csproj|g:\\iti dot net\\mvc\\project\\project\\restaurant ms\\resturant system\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{1095C2CF-0EF2-4239-9BBA-FDCA5084129F}|Resturant System.csproj|solutionrelative:wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1095C2CF-0EF2-4239-9BBA-FDCA5084129F}|Resturant System.csproj|g:\\iti dot net\\mvc\\project\\project\\restaurant ms\\resturant system\\views\\setting\\reset.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1095C2CF-0EF2-4239-9BBA-FDCA5084129F}|Resturant System.csproj|solutionrelative:views\\setting\\reset.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1095C2CF-0EF2-4239-9BBA-FDCA5084129F}|Resturant System.csproj|g:\\iti dot net\\mvc\\project\\project\\restaurant ms\\resturant system\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{1095C2CF-0EF2-4239-9BBA-FDCA5084129F}|Resturant System.csproj|solutionrelative:wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1095C2CF-0EF2-4239-9BBA-FDCA5084129F}|Resturant System.csproj|g:\\iti dot net\\mvc\\project\\project\\restaurant ms\\resturant system\\viewmodel\\ordercreateviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1095C2CF-0EF2-4239-9BBA-FDCA5084129F}|Resturant System.csproj|solutionrelative:viewmodel\\ordercreateviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1095C2CF-0EF2-4239-9BBA-FDCA5084129F}|Resturant System.csproj|g:\\iti dot net\\mvc\\project\\project\\restaurant ms\\resturant system\\viewmodel\\orderitemviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1095C2CF-0EF2-4239-9BBA-FDCA5084129F}|Resturant System.csproj|solutionrelative:viewmodel\\orderitemviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|G:\\ITI DOT NET\\mvc\\Project\\Project\\Restaurant MS\\Resturant System\\Migrations\\20250609181843_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20250609181843_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|G:\\ITI DOT NET\\mvc\\Project\\Project\\Restaurant MS\\Resturant System\\Models\\MenueCatViewModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Models\\MenueCatViewModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03A489B8-0637-4EAE-AEFC-167C300B7A1D}|..\\Infrastructure\\Infrastructure.csproj|g:\\iti dot net\\mvc\\project\\project\\restaurant ms\\infrastructure\\migrations\\20250620075514_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03A489B8-0637-4EAE-AEFC-167C300B7A1D}|..\\Infrastructure\\Infrastructure.csproj|g:\\iti dot net\\mvc\\project\\project\\restaurant ms\\infrastructure\\migrations\\20250621164515_second.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03A489B8-0637-4EAE-AEFC-167C300B7A1D}|..\\Infrastructure\\Infrastructure.csproj|g:\\iti dot net\\mvc\\project\\project\\restaurant ms\\infrastructure\\migrations\\20250621190844_third.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 154,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 9,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "DashboardService.cs",
+              "DocumentMoniker": "G:\\ITI DOT NET\\mvc\\Project\\Project\\Restaurant MS\\Application\\Services\\Implementations\\DashboardService.cs",
+              "RelativeDocumentMoniker": "..\\Application\\Services\\Implementations\\DashboardService.cs",
+              "ToolTip": "G:\\ITI DOT NET\\mvc\\Project\\Project\\Restaurant MS\\Application\\Services\\Implementations\\DashboardService.cs",
+              "RelativeToolTip": "..\\Application\\Services\\Implementations\\DashboardService.cs",
+              "ViewState": "AgIAAAAAAAAAMzMzMzMLwB4AAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-21T20:07:08.794Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IDashboardService.cs",
+              "DocumentMoniker": "G:\\ITI DOT NET\\mvc\\Project\\Project\\Restaurant MS\\Application\\Services\\Abstractions\\IDashboardService.cs",
+              "RelativeDocumentMoniker": "..\\Application\\Services\\Abstractions\\IDashboardService.cs",
+              "ToolTip": "G:\\ITI DOT NET\\mvc\\Project\\Project\\Restaurant MS\\Application\\Services\\Abstractions\\IDashboardService.cs",
+              "RelativeToolTip": "..\\Application\\Services\\Abstractions\\IDashboardService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-21T20:06:45.036Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "DashboardRepository.cs",
+              "DocumentMoniker": "G:\\ITI DOT NET\\mvc\\Project\\Project\\Restaurant MS\\Infrastructure\\Repositeries\\DashboardRepository.cs",
+              "RelativeDocumentMoniker": "..\\Infrastructure\\Repositeries\\DashboardRepository.cs",
+              "ToolTip": "G:\\ITI DOT NET\\mvc\\Project\\Project\\Restaurant MS\\Infrastructure\\Repositeries\\DashboardRepository.cs",
+              "RelativeToolTip": "..\\Infrastructure\\Repositeries\\DashboardRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAABQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-21T20:04:40.302Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "IDashboardRepository.cs",
+              "DocumentMoniker": "G:\\ITI DOT NET\\mvc\\Project\\Project\\Restaurant MS\\Application\\Contracts\\IDashboardRepository.cs",
+              "RelativeDocumentMoniker": "..\\Application\\Contracts\\IDashboardRepository.cs",
+              "ToolTip": "G:\\ITI DOT NET\\mvc\\Project\\Project\\Restaurant MS\\Application\\Contracts\\IDashboardRepository.cs",
+              "RelativeToolTip": "..\\Application\\Contracts\\IDashboardRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-21T20:03:56.785Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "BusinessHoursMiddleware.cs",
+              "DocumentMoniker": "G:\\ITI DOT NET\\mvc\\Project\\Project\\Restaurant MS\\Resturant System\\Middleware\\BusinessHoursMiddleware.cs",
+              "RelativeDocumentMoniker": "Middleware\\BusinessHoursMiddleware.cs",
+              "ToolTip": "G:\\ITI DOT NET\\mvc\\Project\\Project\\Restaurant MS\\Resturant System\\Middleware\\BusinessHoursMiddleware.cs",
+              "RelativeToolTip": "Middleware\\BusinessHoursMiddleware.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-21T20:00:19.073Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 70,
+              "Title": "20250621190844_third.cs",
+              "DocumentMoniker": "G:\\ITI DOT NET\\mvc\\Project\\Project\\Restaurant MS\\Infrastructure\\Migrations\\20250621190844_third.cs",
+              "RelativeDocumentMoniker": "..\\Infrastructure\\Migrations\\20250621190844_third.cs",
+              "ToolTip": "G:\\ITI DOT NET\\mvc\\Project\\Project\\Restaurant MS\\Infrastructure\\Migrations\\20250621190844_third.cs",
+              "RelativeToolTip": "..\\Infrastructure\\Migrations\\20250621190844_third.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-21T19:08:44.512Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "G:\\ITI DOT NET\\mvc\\Project\\Project\\Restaurant MS\\Resturant System\\Views\\Reservation\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Reservation\\Create.cshtml",
+              "ToolTip": "G:\\ITI DOT NET\\mvc\\Project\\Project\\Restaurant MS\\Resturant System\\Views\\Reservation\\Create.cshtml",
+              "RelativeToolTip": "Views\\Reservation\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-21T18:57:54.698Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ReservationController.cs",
+              "DocumentMoniker": "G:\\ITI DOT NET\\mvc\\Project\\Project\\Restaurant MS\\Resturant System\\Controllers\\ReservationController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ReservationController.cs",
+              "ToolTip": "G:\\ITI DOT NET\\mvc\\Project\\Project\\Restaurant MS\\Resturant System\\Controllers\\ReservationController.cs",
+              "RelativeToolTip": "Controllers\\ReservationController.cs",
+              "ViewState": "AgIAAAYAAAAAQJmZmZnJvywAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-21T18:54:55.629Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Reservation.cs",
+              "DocumentMoniker": "G:\\ITI DOT NET\\mvc\\Project\\Project\\Restaurant MS\\Domain\\Entities\\Reservation.cs",
+              "RelativeDocumentMoniker": "..\\Domain\\Entities\\Reservation.cs",
+              "ToolTip": "G:\\ITI DOT NET\\mvc\\Project\\Project\\Restaurant MS\\Domain\\Entities\\Reservation.cs",
+              "RelativeToolTip": "..\\Domain\\Entities\\Reservation.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-21T18:53:07.261Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Table.cs",
+              "DocumentMoniker": "G:\\ITI DOT NET\\mvc\\Project\\Project\\Restaurant MS\\Domain\\Entities\\Table.cs",
+              "RelativeDocumentMoniker": "..\\Domain\\Entities\\Table.cs",
+              "ToolTip": "G:\\ITI DOT NET\\mvc\\Project\\Project\\Restaurant MS\\Domain\\Entities\\Table.cs",
+              "RelativeToolTip": "..\\Domain\\Entities\\Table.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-21T18:52:54.8Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "DashboardViewModel.cs",
+              "DocumentMoniker": "G:\\ITI DOT NET\\mvc\\Project\\Project\\Restaurant MS\\Resturant System\\ViewModel\\DashboardViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModel\\DashboardViewModel.cs",
+              "ToolTip": "G:\\ITI DOT NET\\mvc\\Project\\Project\\Restaurant MS\\Resturant System\\ViewModel\\DashboardViewModel.cs",
+              "RelativeToolTip": "ViewModel\\DashboardViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-21T17:35:08.362Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 69,
+              "Title": "20250621164515_second.cs",
+              "DocumentMoniker": "G:\\ITI DOT NET\\mvc\\Project\\Project\\Restaurant MS\\Infrastructure\\Migrations\\20250621164515_second.cs",
+              "RelativeDocumentMoniker": "..\\Infrastructure\\Migrations\\20250621164515_second.cs",
+              "ToolTip": "G:\\ITI DOT NET\\mvc\\Project\\Project\\Restaurant MS\\Infrastructure\\Migrations\\20250621164515_second.cs",
+              "RelativeToolTip": "..\\Infrastructure\\Migrations\\20250621164515_second.cs",
+              "ViewState": "AgIAAAEAAABQMjMzMzMLwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-21T16:45:15.764Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "OrderItems.cs",
+              "DocumentMoniker": "G:\\ITI DOT NET\\mvc\\Project\\Project\\Restaurant MS\\Domain\\Entities\\OrderItems.cs",
+              "RelativeDocumentMoniker": "..\\Domain\\Entities\\OrderItems.cs",
+              "ToolTip": "G:\\ITI DOT NET\\mvc\\Project\\Project\\Restaurant MS\\Domain\\Entities\\OrderItems.cs",
+              "RelativeToolTip": "..\\Domain\\Entities\\OrderItems.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-21T16:37:41.376Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "OrderStatusUpdaterService.cs",
+              "DocumentMoniker": "G:\\ITI DOT NET\\mvc\\Project\\Project\\Restaurant MS\\Resturant System\\Services\\OrderStatusUpdaterService.cs",
+              "RelativeDocumentMoniker": "Services\\OrderStatusUpdaterService.cs",
+              "ToolTip": "G:\\ITI DOT NET\\mvc\\Project\\Project\\Restaurant MS\\Resturant System\\Services\\OrderStatusUpdaterService.cs",
+              "RelativeToolTip": "Services\\OrderStatusUpdaterService.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAmwDYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-21T16:12:57.805Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "MenuResetService.cs",
+              "DocumentMoniker": "G:\\ITI DOT NET\\mvc\\Project\\Project\\Restaurant MS\\Resturant System\\Services\\MenuResetService.cs",
+              "RelativeDocumentMoniker": "Services\\MenuResetService.cs",
+              "ToolTip": "G:\\ITI DOT NET\\mvc\\Project\\Project\\Restaurant MS\\Resturant System\\Services\\MenuResetService.cs",
+              "RelativeToolTip": "Services\\MenuResetService.cs",
+              "ViewState": "AgIAAAYAAABAmZmZmZkjwB0AAABUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-21T11:58:32.6Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Menue.cs",
+              "DocumentMoniker": "G:\\ITI DOT NET\\mvc\\Project\\Project\\Restaurant MS\\Domain\\Entities\\Menue.cs",
+              "RelativeDocumentMoniker": "..\\Domain\\Entities\\Menue.cs",
+              "ToolTip": "G:\\ITI DOT NET\\mvc\\Project\\Project\\Restaurant MS\\Domain\\Entities\\Menue.cs",
+              "RelativeToolTip": "..\\Domain\\Entities\\Menue.cs",
+              "ViewState": "AgIAAAQAAAAAMDMzMzMLwB8AAABLAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-21T11:34:49.934Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "Resturant System.csproj",
+              "DocumentMoniker": "G:\\ITI DOT NET\\mvc\\Project\\Project\\Restaurant MS\\Resturant System\\Resturant System.csproj",
+              "RelativeDocumentMoniker": "Resturant System.csproj",
+              "ToolTip": "G:\\ITI DOT NET\\mvc\\Project\\Project\\Restaurant MS\\Resturant System\\Resturant System.csproj",
+              "RelativeToolTip": "Resturant System.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-06-21T11:12:17.5Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "Meneu-view.js",
+              "DocumentMoniker": "G:\\ITI DOT NET\\mvc\\Project\\Project\\Restaurant MS\\Resturant System\\wwwroot\\js\\Meneu-view.js",
+              "RelativeDocumentMoniker": "wwwroot\\js\\Meneu-view.js",
+              "ToolTip": "G:\\ITI DOT NET\\mvc\\Project\\Project\\Restaurant MS\\Resturant System\\wwwroot\\js\\Meneu-view.js",
+              "RelativeToolTip": "wwwroot\\js\\Meneu-view.js",
+              "ViewState": "AgIAABgAAABANDMzMzMbwCoAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-06-21T08:52:40.096Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "Meneu-view.css",
+              "DocumentMoniker": "G:\\ITI DOT NET\\mvc\\Project\\Project\\Restaurant MS\\Resturant System\\wwwroot\\css\\Meneu-view.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\Meneu-view.css",
+              "ToolTip": "G:\\ITI DOT NET\\mvc\\Project\\Project\\Restaurant MS\\Resturant System\\wwwroot\\css\\Meneu-view.css",
+              "RelativeToolTip": "wwwroot\\css\\Meneu-view.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-06-21T08:52:11.783Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "CategoryService.cs",
+              "DocumentMoniker": "G:\\ITI DOT NET\\mvc\\Project\\Project\\Restaurant MS\\Application\\Services\\Implementations\\CategoryService.cs",
+              "RelativeDocumentMoniker": "..\\Application\\Services\\Implementations\\CategoryService.cs",
+              "ToolTip": "G:\\ITI DOT NET\\mvc\\Project\\Project\\Restaurant MS\\Application\\Services\\Implementations\\CategoryService.cs",
+              "RelativeToolTip": "..\\Application\\Services\\Implementations\\CategoryService.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAowC4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-20T14:57:41.829Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ICategoryService.cs",
+              "DocumentMoniker": "G:\\ITI DOT NET\\mvc\\Project\\Project\\Restaurant MS\\Application\\Services\\Abstractions\\ICategoryService.cs",
+              "RelativeDocumentMoniker": "..\\Application\\Services\\Abstractions\\ICategoryService.cs",
+              "ToolTip": "G:\\ITI DOT NET\\mvc\\Project\\Project\\Restaurant MS\\Application\\Services\\Abstractions\\ICategoryService.cs",
+              "RelativeToolTip": "..\\Application\\Services\\Abstractions\\ICategoryService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-20T14:56:33.891Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "CateogryRepo.cs",
+              "DocumentMoniker": "G:\\ITI DOT NET\\mvc\\Project\\Project\\Restaurant MS\\Infrastructure\\Repositeries\\CateogryRepo.cs",
+              "RelativeDocumentMoniker": "..\\Infrastructure\\Repositeries\\CateogryRepo.cs",
+              "ToolTip": "G:\\ITI DOT NET\\mvc\\Project\\Project\\Restaurant MS\\Infrastructure\\Repositeries\\CateogryRepo.cs",
+              "RelativeToolTip": "..\\Infrastructure\\Repositeries\\CateogryRepo.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAwwDkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-20T14:53:15.92Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ICateogryRepo.cs",
+              "DocumentMoniker": "G:\\ITI DOT NET\\mvc\\Project\\Project\\Restaurant MS\\Application\\Contracts\\ICateogryRepo.cs",
+              "RelativeDocumentMoniker": "..\\Application\\Contracts\\ICateogryRepo.cs",
+              "ToolTip": "G:\\ITI DOT NET\\mvc\\Project\\Project\\Restaurant MS\\Application\\Contracts\\ICateogryRepo.cs",
+              "RelativeToolTip": "..\\Application\\Contracts\\ICateogryRepo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-20T14:52:26.408Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "MenueService.cs",
+              "DocumentMoniker": "G:\\ITI DOT NET\\mvc\\Project\\Project\\Restaurant MS\\Application\\Services\\Implementations\\MenueService.cs",
+              "RelativeDocumentMoniker": "..\\Application\\Services\\Implementations\\MenueService.cs",
+              "ToolTip": "G:\\ITI DOT NET\\mvc\\Project\\Project\\Restaurant MS\\Application\\Services\\Implementations\\MenueService.cs",
+              "RelativeToolTip": "..\\Application\\Services\\Implementations\\MenueService.cs",
+              "ViewState": "AgIAAAoAAAAALzMzMzMLwAQAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-20T14:34:35.289Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "ImenueService.cs",
+              "DocumentMoniker": "G:\\ITI DOT NET\\mvc\\Project\\Project\\Restaurant MS\\Application\\Services\\Abstractions\\ImenueService.cs",
+              "RelativeDocumentMoniker": "..\\Application\\Services\\Abstractions\\ImenueService.cs",
+              "ToolTip": "G:\\ITI DOT NET\\mvc\\Project\\Project\\Restaurant MS\\Application\\Services\\Abstractions\\ImenueService.cs",
+              "RelativeToolTip": "..\\Application\\Services\\Abstractions\\ImenueService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBAAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-20T14:28:58.037Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "IMenueRepo.cs",
+              "DocumentMoniker": "G:\\ITI DOT NET\\mvc\\Project\\Project\\Restaurant MS\\Application\\Contracts\\IMenueRepo.cs",
+              "RelativeDocumentMoniker": "..\\Application\\Contracts\\IMenueRepo.cs",
+              "ToolTip": "G:\\ITI DOT NET\\mvc\\Project\\Project\\Restaurant MS\\Application\\Contracts\\IMenueRepo.cs",
+              "RelativeToolTip": "..\\Application\\Contracts\\IMenueRepo.cs",
+              "ViewState": "AgIAAAUAAACAMjMzMzMLwBEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-20T14:24:04.08Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "MenueRepo.cs",
+              "DocumentMoniker": "G:\\ITI DOT NET\\mvc\\Project\\Project\\Restaurant MS\\Infrastructure\\Repositeries\\MenueRepo.cs",
+              "RelativeDocumentMoniker": "..\\Infrastructure\\Repositeries\\MenueRepo.cs",
+              "ToolTip": "G:\\ITI DOT NET\\mvc\\Project\\Project\\Restaurant MS\\Infrastructure\\Repositeries\\MenueRepo.cs",
+              "RelativeToolTip": "..\\Infrastructure\\Repositeries\\MenueRepo.cs",
+              "ViewState": "AgIAABcAAACgjJmZmZkTwDIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-20T14:23:02.465Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "OrderItemDto.cs",
+              "DocumentMoniker": "G:\\ITI DOT NET\\mvc\\Project\\Project\\Restaurant MS\\Application\\DTO\\OrderItemDto.cs",
+              "RelativeDocumentMoniker": "..\\Application\\DTO\\OrderItemDto.cs",
+              "ToolTip": "G:\\ITI DOT NET\\mvc\\Project\\Project\\Restaurant MS\\Application\\DTO\\OrderItemDto.cs",
+              "RelativeToolTip": "..\\Application\\DTO\\OrderItemDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-20T12:36:07.158Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "OrderCreateDto.cs",
+              "DocumentMoniker": "G:\\ITI DOT NET\\mvc\\Project\\Project\\Restaurant MS\\Application\\DTO\\OrderCreateDto.cs",
+              "RelativeDocumentMoniker": "..\\Application\\DTO\\OrderCreateDto.cs",
+              "ToolTip": "G:\\ITI DOT NET\\mvc\\Project\\Project\\Restaurant MS\\Application\\DTO\\OrderCreateDto.cs",
+              "RelativeToolTip": "..\\Application\\DTO\\OrderCreateDto.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAIwA4AAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-20T12:35:33.766Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "GenericRepo.cs",
+              "DocumentMoniker": "G:\\ITI DOT NET\\mvc\\Project\\Project\\Restaurant MS\\Infrastructure\\Repositeries\\GenericRepo.cs",
+              "RelativeDocumentMoniker": "..\\Infrastructure\\Repositeries\\GenericRepo.cs",
+              "ToolTip": "G:\\ITI DOT NET\\mvc\\Project\\Project\\Restaurant MS\\Infrastructure\\Repositeries\\GenericRepo.cs",
+              "RelativeToolTip": "..\\Infrastructure\\Repositeries\\GenericRepo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-20T11:20:50.518Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "20250620091709_Seeding.cs",
+              "DocumentMoniker": "G:\\ITI DOT NET\\mvc\\Project\\Project\\Restaurant MS\\Infrastructure\\Migrations\\20250620091709_Seeding.cs",
+              "RelativeDocumentMoniker": "..\\Infrastructure\\Migrations\\20250620091709_Seeding.cs",
+              "ToolTip": "G:\\ITI DOT NET\\mvc\\Project\\Project\\Restaurant MS\\Infrastructure\\Migrations\\20250620091709_Seeding.cs",
+              "RelativeToolTip": "..\\Infrastructure\\Migrations\\20250620091709_Seeding.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-20T09:17:09.821Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "OrderService.cs",
+              "DocumentMoniker": "G:\\ITI DOT NET\\mvc\\Project\\Project\\Restaurant MS\\Application\\Services\\Implementations\\OrderService.cs",
+              "RelativeDocumentMoniker": "..\\Application\\Services\\Implementations\\OrderService.cs",
+              "ToolTip": "G:\\ITI DOT NET\\mvc\\Project\\Project\\Restaurant MS\\Application\\Services\\Implementations\\OrderService.cs",
+              "RelativeToolTip": "..\\Application\\Services\\Implementations\\OrderService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-20T08:59:32.268Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "IOrderService.cs",
+              "DocumentMoniker": "G:\\ITI DOT NET\\mvc\\Project\\Project\\Restaurant MS\\Application\\Services\\Abstractions\\IOrderService.cs",
+              "RelativeDocumentMoniker": "..\\Application\\Services\\Abstractions\\IOrderService.cs",
+              "ToolTip": "G:\\ITI DOT NET\\mvc\\Project\\Project\\Restaurant MS\\Application\\Services\\Abstractions\\IOrderService.cs",
+              "RelativeToolTip": "..\\Application\\Services\\Abstractions\\IOrderService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwA8AAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-20T08:59:10.901Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "OrderRepo.cs",
+              "DocumentMoniker": "G:\\ITI DOT NET\\mvc\\Project\\Project\\Restaurant MS\\Infrastructure\\Repositeries\\OrderRepo.cs",
+              "RelativeDocumentMoniker": "..\\Infrastructure\\Repositeries\\OrderRepo.cs",
+              "ToolTip": "G:\\ITI DOT NET\\mvc\\Project\\Project\\Restaurant MS\\Infrastructure\\Repositeries\\OrderRepo.cs",
+              "RelativeToolTip": "..\\Infrastructure\\Repositeries\\OrderRepo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADEAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-20T08:50:39.542Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "IOrderRepo.cs",
+              "DocumentMoniker": "G:\\ITI DOT NET\\mvc\\Project\\Project\\Restaurant MS\\Application\\Contracts\\IOrderRepo.cs",
+              "RelativeDocumentMoniker": "..\\Application\\Contracts\\IOrderRepo.cs",
+              "ToolTip": "G:\\ITI DOT NET\\mvc\\Project\\Project\\Restaurant MS\\Application\\Contracts\\IOrderRepo.cs",
+              "RelativeToolTip": "..\\Application\\Contracts\\IOrderRepo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAwAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-20T08:47:36.864Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 68,
+              "Title": "20250620075514_initial.cs",
+              "DocumentMoniker": "G:\\ITI DOT NET\\mvc\\Project\\Project\\Restaurant MS\\Infrastructure\\Migrations\\20250620075514_initial.cs",
+              "RelativeDocumentMoniker": "..\\Infrastructure\\Migrations\\20250620075514_initial.cs",
+              "ToolTip": "G:\\ITI DOT NET\\mvc\\Project\\Project\\Restaurant MS\\Infrastructure\\Migrations\\20250620075514_initial.cs",
+              "RelativeToolTip": "..\\Infrastructure\\Migrations\\20250620075514_initial.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-20T07:55:14.963Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "ResturantDbContextFactory.cs",
+              "DocumentMoniker": "G:\\ITI DOT NET\\mvc\\Project\\Project\\Restaurant MS\\Infrastructure\\Data\\ResturantDbContextFactory.cs",
+              "RelativeDocumentMoniker": "..\\Infrastructure\\Data\\ResturantDbContextFactory.cs",
+              "ToolTip": "G:\\ITI DOT NET\\mvc\\Project\\Project\\Restaurant MS\\Infrastructure\\Data\\ResturantDbContextFactory.cs",
+              "RelativeToolTip": "..\\Infrastructure\\Data\\ResturantDbContextFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAABhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-20T07:33:45.832Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "ResturantDbcontext.cs",
+              "DocumentMoniker": "G:\\ITI DOT NET\\mvc\\Project\\Project\\Restaurant MS\\Infrastructure\\Data\\ResturantDbcontext.cs",
+              "RelativeDocumentMoniker": "..\\Infrastructure\\Data\\ResturantDbcontext.cs",
+              "ToolTip": "G:\\ITI DOT NET\\mvc\\Project\\Project\\Restaurant MS\\Infrastructure\\Data\\ResturantDbcontext.cs",
+              "RelativeToolTip": "..\\Infrastructure\\Data\\ResturantDbcontext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-20T06:29:13.295Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "G:\\ITI DOT NET\\mvc\\Project\\Project\\Restaurant MS\\Resturant System\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "G:\\ITI DOT NET\\mvc\\Project\\Project\\Restaurant MS\\Resturant System\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAABmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-20T05:57:01.687Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "G:\\ITI DOT NET\\mvc\\Project\\Project\\Restaurant MS\\Resturant System\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "G:\\ITI DOT NET\\mvc\\Project\\Project\\Restaurant MS\\Resturant System\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T00:16:44.607Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "orders.css",
+              "DocumentMoniker": "G:\\ITI DOT NET\\mvc\\Project\\Project\\Restaurant MS\\Resturant System\\wwwroot\\css\\orders.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\orders.css",
+              "ToolTip": "G:\\ITI DOT NET\\mvc\\Project\\Project\\Restaurant MS\\Resturant System\\wwwroot\\css\\orders.css",
+              "RelativeToolTip": "wwwroot\\css\\orders.css",
+              "ViewState": "AgIAAEQAAAAQAAAAAIBJwE4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-06-16T00:12:23.152Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "G:\\ITI DOT NET\\mvc\\Project\\Project\\Restaurant MS\\Resturant System\\Views\\Categories\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\Categories\\Edit.cshtml",
+              "ToolTip": "G:\\ITI DOT NET\\mvc\\Project\\Project\\Restaurant MS\\Resturant System\\Views\\Categories\\Edit.cshtml",
+              "RelativeToolTip": "Views\\Categories\\Edit.cshtml",
+              "ViewState": "AgIAAAEAAADgZWZmZmYWwAwAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-15T23:39:26.4Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "G:\\ITI DOT NET\\mvc\\Project\\Project\\Restaurant MS\\Resturant System\\Views\\Categories\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Categories\\Create.cshtml",
+              "ToolTip": "G:\\ITI DOT NET\\mvc\\Project\\Project\\Restaurant MS\\Resturant System\\Views\\Categories\\Create.cshtml",
+              "RelativeToolTip": "Views\\Categories\\Create.cshtml",
+              "ViewState": "AgIAAAcAAABAMzMzMzMrwAwAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-15T23:35:42.445Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "G:\\ITI DOT NET\\mvc\\Project\\Project\\Restaurant MS\\Resturant System\\Views\\Categories\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Views\\Categories\\Delete.cshtml",
+              "ToolTip": "G:\\ITI DOT NET\\mvc\\Project\\Project\\Restaurant MS\\Resturant System\\Views\\Categories\\Delete.cshtml",
+              "RelativeToolTip": "Views\\Categories\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-15T23:27:21.274Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "G:\\ITI DOT NET\\mvc\\Project\\Project\\Restaurant MS\\Resturant System\\Views\\Categories\\Details.cshtml",
+              "RelativeDocumentMoniker": "Views\\Categories\\Details.cshtml",
+              "ToolTip": "G:\\ITI DOT NET\\mvc\\Project\\Project\\Restaurant MS\\Resturant System\\Views\\Categories\\Details.cshtml",
+              "RelativeToolTip": "Views\\Categories\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-15T23:27:20.095Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "G:\\ITI DOT NET\\mvc\\Project\\Project\\Restaurant MS\\Resturant System\\Views\\Categories\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Categories\\Index.cshtml",
+              "ToolTip": "G:\\ITI DOT NET\\mvc\\Project\\Project\\Restaurant MS\\Resturant System\\Views\\Categories\\Index.cshtml",
+              "RelativeToolTip": "Views\\Categories\\Index.cshtml",
+              "ViewState": "AgIAABUAAACgMzMzMzMrwCIAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-15T23:26:46.426Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CategoriesController.cs",
+              "DocumentMoniker": "G:\\ITI DOT NET\\mvc\\Project\\Project\\Restaurant MS\\Resturant System\\Controllers\\CategoriesController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CategoriesController.cs",
+              "ToolTip": "G:\\ITI DOT NET\\mvc\\Project\\Project\\Restaurant MS\\Resturant System\\Controllers\\CategoriesController.cs",
+              "RelativeToolTip": "Controllers\\CategoriesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEUAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-15T23:23:43.27Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "menueadd-form.css",
+              "DocumentMoniker": "G:\\ITI DOT NET\\mvc\\Project\\Project\\Restaurant MS\\Resturant System\\wwwroot\\css\\menueadd-form.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\menueadd-form.css",
+              "ToolTip": "G:\\ITI DOT NET\\mvc\\Project\\Project\\Restaurant MS\\Resturant System\\wwwroot\\css\\menueadd-form.css",
+              "RelativeToolTip": "wwwroot\\css\\menueadd-form.css",
+              "ViewState": "AgIAAAMAAACwMjMzMzMbwAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-06-15T23:21:32.071Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "G:\\ITI DOT NET\\mvc\\Project\\Project\\Restaurant MS\\Resturant System\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "G:\\ITI DOT NET\\mvc\\Project\\Project\\Restaurant MS\\Resturant System\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-15T21:50:14.491Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "index.cshtml",
+              "DocumentMoniker": "G:\\ITI DOT NET\\mvc\\Project\\Project\\Restaurant MS\\Resturant System\\Views\\Order\\index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Order\\index.cshtml",
+              "ToolTip": "G:\\ITI DOT NET\\mvc\\Project\\Project\\Restaurant MS\\Resturant System\\Views\\Order\\index.cshtml",
+              "RelativeToolTip": "Views\\Order\\index.cshtml",
+              "ViewState": "AgIAAAIAAAAAAAAAAKB9PRcAAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-15T21:13:22.185Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "reset.cshtml",
+              "DocumentMoniker": "G:\\ITI DOT NET\\mvc\\Project\\Project\\Restaurant MS\\Resturant System\\Views\\Setting\\reset.cshtml",
+              "RelativeDocumentMoniker": "Views\\Setting\\reset.cshtml",
+              "ToolTip": "G:\\ITI DOT NET\\mvc\\Project\\Project\\Restaurant MS\\Resturant System\\Views\\Setting\\reset.cshtml",
+              "RelativeToolTip": "Views\\Setting\\reset.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-15T00:41:58.936Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "SettingController.cs",
+              "DocumentMoniker": "G:\\ITI DOT NET\\mvc\\Project\\Project\\Restaurant MS\\Resturant System\\Controllers\\SettingController.cs",
+              "RelativeDocumentMoniker": "Controllers\\SettingController.cs",
+              "ToolTip": "G:\\ITI DOT NET\\mvc\\Project\\Project\\Restaurant MS\\Resturant System\\Controllers\\SettingController.cs",
+              "RelativeToolTip": "Controllers\\SettingController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-15T00:40:29.847Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "G:\\ITI DOT NET\\mvc\\Project\\Project\\Restaurant MS\\Resturant System\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "G:\\ITI DOT NET\\mvc\\Project\\Project\\Restaurant MS\\Resturant System\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-14T21:54:08.892Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "EditOrder.cshtml",
+              "DocumentMoniker": "G:\\ITI DOT NET\\mvc\\Project\\Project\\Restaurant MS\\Resturant System\\Views\\Order\\EditOrder.cshtml",
+              "RelativeDocumentMoniker": "Views\\Order\\EditOrder.cshtml",
+              "ToolTip": "G:\\ITI DOT NET\\mvc\\Project\\Project\\Restaurant MS\\Resturant System\\Views\\Order\\EditOrder.cshtml",
+              "RelativeToolTip": "Views\\Order\\EditOrder.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-14T21:52:00.747Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "MenueController.cs",
+              "DocumentMoniker": "G:\\ITI DOT NET\\mvc\\Project\\Project\\Restaurant MS\\Resturant System\\Controllers\\MenueController.cs",
+              "RelativeDocumentMoniker": "Controllers\\MenueController.cs",
+              "ToolTip": "G:\\ITI DOT NET\\mvc\\Project\\Project\\Restaurant MS\\Resturant System\\Controllers\\MenueController.cs",
+              "RelativeToolTip": "Controllers\\MenueController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-14T03:46:16.635Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "site.css",
+              "DocumentMoniker": "G:\\ITI DOT NET\\mvc\\Project\\Project\\Restaurant MS\\Resturant System\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\site.css",
+              "ToolTip": "G:\\ITI DOT NET\\mvc\\Project\\Project\\Restaurant MS\\Resturant System\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "wwwroot\\css\\site.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-06-14T03:36:48.81Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 63,
+              "Title": "site.js",
+              "DocumentMoniker": "G:\\ITI DOT NET\\mvc\\Project\\Project\\Restaurant MS\\Resturant System\\wwwroot\\js\\site.js",
+              "RelativeDocumentMoniker": "wwwroot\\js\\site.js",
+              "ToolTip": "G:\\ITI DOT NET\\mvc\\Project\\Project\\Restaurant MS\\Resturant System\\wwwroot\\js\\site.js",
+              "RelativeToolTip": "wwwroot\\js\\site.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-06-14T03:27:11.998Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "order-form.js",
+              "DocumentMoniker": "G:\\ITI DOT NET\\mvc\\Project\\Project\\Restaurant MS\\Resturant System\\wwwroot\\js\\order-form.js",
+              "RelativeDocumentMoniker": "wwwroot\\js\\order-form.js",
+              "ToolTip": "G:\\ITI DOT NET\\mvc\\Project\\Project\\Restaurant MS\\Resturant System\\wwwroot\\js\\order-form.js",
+              "RelativeToolTip": "wwwroot\\js\\order-form.js",
+              "ViewState": "AgIAACEAAAAAMDMzMzMjwCgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-06-13T18:52:38.032Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "order-form.css",
+              "DocumentMoniker": "G:\\ITI DOT NET\\mvc\\Project\\Project\\Restaurant MS\\Resturant System\\wwwroot\\css\\order-form.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\order-form.css",
+              "ToolTip": "G:\\ITI DOT NET\\mvc\\Project\\Project\\Restaurant MS\\Resturant System\\wwwroot\\css\\order-form.css",
+              "RelativeToolTip": "wwwroot\\css\\order-form.css",
+              "ViewState": "AgIAAHYAAAAANTMzMzMLwIUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-06-13T18:51:41.974Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 65,
+              "Title": "OrderItemViewModel.cs",
+              "DocumentMoniker": "G:\\ITI DOT NET\\mvc\\Project\\Project\\Restaurant MS\\Resturant System\\ViewModel\\OrderItemViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModel\\OrderItemViewModel.cs",
+              "ToolTip": "G:\\ITI DOT NET\\mvc\\Project\\Project\\Restaurant MS\\Resturant System\\ViewModel\\OrderItemViewModel.cs",
+              "RelativeToolTip": "ViewModel\\OrderItemViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-13T18:06:46.437Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 64,
+              "Title": "OrderCreateViewModel.cs",
+              "DocumentMoniker": "G:\\ITI DOT NET\\mvc\\Project\\Project\\Restaurant MS\\Resturant System\\ViewModel\\OrderCreateViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModel\\OrderCreateViewModel.cs",
+              "ToolTip": "G:\\ITI DOT NET\\mvc\\Project\\Project\\Restaurant MS\\Resturant System\\ViewModel\\OrderCreateViewModel.cs",
+              "RelativeToolTip": "ViewModel\\OrderCreateViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-13T14:38:39.116Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "MenueCatViewModel.cs",
+              "DocumentMoniker": "G:\\ITI DOT NET\\mvc\\Project\\Project\\Restaurant MS\\Resturant System\\ViewModel\\MenueCatViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModel\\MenueCatViewModel.cs",
+              "ToolTip": "G:\\ITI DOT NET\\mvc\\Project\\Project\\Restaurant MS\\Resturant System\\ViewModel\\MenueCatViewModel.cs",
+              "RelativeToolTip": "ViewModel\\MenueCatViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-13T14:23:12.53Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "MenueAdd.cshtml",
+              "DocumentMoniker": "G:\\ITI DOT NET\\mvc\\Project\\Project\\Restaurant MS\\Resturant System\\Views\\Menue\\MenueAdd.cshtml",
+              "RelativeDocumentMoniker": "Views\\Menue\\MenueAdd.cshtml",
+              "ToolTip": "G:\\ITI DOT NET\\mvc\\Project\\Project\\Restaurant MS\\Resturant System\\Views\\Menue\\MenueAdd.cshtml",
+              "RelativeToolTip": "Views\\Menue\\MenueAdd.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-13T14:18:07.514Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "createform.cshtml",
+              "DocumentMoniker": "G:\\ITI DOT NET\\mvc\\Project\\Project\\Restaurant MS\\Resturant System\\Views\\Order\\createform.cshtml",
+              "RelativeDocumentMoniker": "Views\\Order\\createform.cshtml",
+              "ToolTip": "G:\\ITI DOT NET\\mvc\\Project\\Project\\Restaurant MS\\Resturant System\\Views\\Order\\createform.cshtml",
+              "RelativeToolTip": "Views\\Order\\createform.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAIgAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-13T00:02:20.888Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "OrderController.cs",
+              "DocumentMoniker": "G:\\ITI DOT NET\\mvc\\Project\\Project\\Restaurant MS\\Resturant System\\Controllers\\OrderController.cs",
+              "RelativeDocumentMoniker": "Controllers\\OrderController.cs",
+              "ToolTip": "G:\\ITI DOT NET\\mvc\\Project\\Project\\Restaurant MS\\Resturant System\\Controllers\\OrderController.cs",
+              "RelativeToolTip": "Controllers\\OrderController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T21:57:23.367Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "Microsoft.Common.CurrentVersion.targets",
+              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "ViewState": "AgIAALIUAAAAAAAAAAAswMkUAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2025-06-12T18:21:55.424Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "ViewItems.cshtml",
+              "DocumentMoniker": "G:\\ITI DOT NET\\mvc\\Project\\Project\\Restaurant MS\\Resturant System\\Views\\Menue\\ViewItems.cshtml",
+              "RelativeDocumentMoniker": "Views\\Menue\\ViewItems.cshtml",
+              "ToolTip": "G:\\ITI DOT NET\\mvc\\Project\\Project\\Restaurant MS\\Resturant System\\Views\\Menue\\ViewItems.cshtml",
+              "RelativeToolTip": "Views\\Menue\\ViewItems.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-11T14:56:04.16Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 67,
+              "Title": "MenueCatViewModel.cs",
+              "DocumentMoniker": "G:\\ITI DOT NET\\mvc\\Project\\Project\\Restaurant MS\\Resturant System\\Models\\MenueCatViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\MenueCatViewModel.cs",
+              "ToolTip": "G:\\ITI DOT NET\\mvc\\Project\\Project\\Restaurant MS\\Resturant System\\Models\\MenueCatViewModel.cs",
+              "RelativeToolTip": "Models\\MenueCatViewModel.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-11T14:40:06.17Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "G:\\ITI DOT NET\\mvc\\Project\\Project\\Restaurant MS\\Resturant System\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "G:\\ITI DOT NET\\mvc\\Project\\Project\\Restaurant MS\\Resturant System\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAIAwwCMAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-11T13:46:11.272Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "G:\\ITI DOT NET\\mvc\\Project\\Project\\Restaurant MS\\Resturant System\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "G:\\ITI DOT NET\\mvc\\Project\\Project\\Restaurant MS\\Resturant System\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAF4AAACANTMzMzMrwHgAAABWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-09T19:03:54.221Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 66,
+              "Title": "20250609181843_init.cs",
+              "DocumentMoniker": "G:\\ITI DOT NET\\mvc\\Project\\Project\\Restaurant MS\\Resturant System\\Migrations\\20250609181843_init.cs",
+              "RelativeDocumentMoniker": "Migrations\\20250609181843_init.cs",
+              "ToolTip": "G:\\ITI DOT NET\\mvc\\Project\\Project\\Restaurant MS\\Resturant System\\Migrations\\20250609181843_init.cs",
+              "RelativeToolTip": "Migrations\\20250609181843_init.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-09T18:18:43.558Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

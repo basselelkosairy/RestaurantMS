@@ -1,0 +1,153 @@
+﻿@model Resturant_System.ViewModel.OrderCreateViewModel
+
+@{
+    ViewData["Title"] = "createform";
+}
+@section Styles {
+    <link rel="stylesheet" href="~/css/order-form.css" />
+}
+
+@if (TempData["Error"] != null)
+{
+    <div class="alert alert-danger">@TempData["Error"]</div>
+}
+@if (TempData["Success"] != null)
+{
+    <div class="alert alert-success">@TempData["Success"]</div>
+}
+
+@{
+    var now = DateTime.Now;
+    bool isHappyHour = now.Hour >= 15 && now.Hour < 17;
+}
+
+@if (isHappyHour)
+{
+    <div class="alert alert-success text-center">
+         Happy Hour is ON! Get 20% off your order from 3 PM to 5 PM!
+    </div>
+}
+
+<div class="order-container">
+    <form asp-action="create" method="post">
+        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+        <div class="form-group order-type">
+            <label class="form-label">Order Type *</label>
+            <div class="radio-group">
+                <label><input type="radio" asp-for="Type" value="Dinein" /> Dine In</label>
+                <label><input type="radio" asp-for="Type" value="Takeout" /> Take Away</label>
+                <label><input type="radio" asp-for="Type" value="Delivery" />  Delivery</label>
+            </div>
+        </div>
+
+        @* <div class="form-check"> *@
+        @*     <input class="form-check-input" type="checkbox" name="IsStudent" id="IsStudent" /> *@
+        @*     <label class="form-check-label" for="IsStudent">Student Discount</label> *@
+        @* </div> *@
+        @* <div class="form-check"> *@
+        @*     <input class="form-check-input" type="checkbox" name="IsSenior" id="IsSenior" /> *@
+        @*     <label class="form-check-label" for="IsSenior">Senior Discount</label> *@
+        @* </div> *@
+
+
+        <div hidden class="form-group">
+            <label class="form-label">Time *</label>
+            <input required asp-for="CreatedAt" class="form-control" readonly />
+        </div>
+
+        <div class="form-group" id="delivery-address-group">
+            <label class="form-label">Delivery Address *</label>
+            <input asp-for="DeliveryAddress" class="form-control" />
+        </div>
+
+
+
+
+        
+        <div class="order-items-section">
+
+
+
+            <h4>Order Items *</h4>
+
+            <div id="order-items">
+                @for (int i = 0; i < Model.OrderItems.Count; i++)
+
+                
+                {
+                    <div class="order-item">
+                        <div class="item-row">
+                            <div class="form-group">
+                                <label>Item Name *</label>
+                                <select required asp-for="OrderItems[@i].MenuItemId" asp-items="Model.menuesitems" class="form-control">
+                                    <option value="">-- Select Item --</option>
+                                </select>
+                            </div>
+
+                            <div class="form-group">
+                                <label>Notes</label>
+                                <textarea asp-for="OrderItems[@i].Notes" class="form-control"></textarea>
+                            </div>
+
+                            <div required class="form-group">
+                                <label >Quantity *</label>
+                                <input required asp-for="OrderItems[@i].Quantity" class="form-control quantity-input" min="1" />
+                            </div>
+<div >
+                                <button class="delete-btn" onclick="Delete(this)">Delete</button>
+</div>                     
+                        </div>
+                    </div>
+                }
+            </div>
+
+            <button type="button" class="add-btn" onclick="addOrderItem()">+ Add New</button>
+        </div>
+
+        <div class="form-group">
+            <input type="submit" value="Create" class="btn-submit" />
+        </div>
+    </form>
+</div>
+
+<script>
+    const deliveryGroup = document.getElementById("delivery-address-group");
+     const deliveryInput = deliveryGroup.querySelector("input");
+     const typeRadios = document.querySelectorAll("input[name='Type']");
+
+     function toggleDeliveryAddress() {
+         const selectedType = document.querySelector("input[name='Type']:checked")?.value;
+
+         if (selectedType === "Delivery") {
+             deliveryGroup.style.display = "block";
+             deliveryInput.removeAttribute("readonly");
+             deliveryInput.value = "";
+         } else {
+             deliveryGroup.style.display = "none";
+             deliveryInput.setAttribute("readonly", true);
+             deliveryInput.value = selectedType;
+         }
+     }
+
+     toggleDeliveryAddress();
+
+     typeRadios.forEach(radio => {
+         radio.addEventListener("change", toggleDeliveryAddress);
+     });
+</script>
+
+@section Scripts {
+    <script>
+        var menuItemsOptions = `
+        @foreach (var item in Model.menuesitems)
+        {
+            <text><option value="@item.Value">@item.Text</option></text>
+        }
+        `;
+    </script>
+    <script src="~/js/order-form.js"></script>
+}
+<div>
+</div>
+

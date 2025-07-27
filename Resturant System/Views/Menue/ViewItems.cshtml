@@ -1,0 +1,53 @@
+﻿@model IEnumerable<Resturant_System.Models.Menue>
+
+@{
+    ViewData["Title"] = "ViewItems";
+}
+
+@section Styles {
+    <link rel="stylesheet" href="~/css/Meneu-view.css" />
+}
+
+<div class="row row-cols-1 row-cols-md-3 g-4">
+    @foreach (var item in Model)
+    {
+        <div class="col">
+            <div class="card h-100 shadow-sm" data-id="@item.Id">
+                <img src="@item.Image" class="card-img-top image" alt="Image" style="max-height: 180px; object-fit: cover;" />
+                <div class="card-body">
+                    <h5 class="card-title name">@item.Name</h5>
+                    <p class="card-text description">@item.Description</p>
+                    <p class="card-text price fw-bold text-success">Price: @item.Price</p>
+                    <p class="card-text quantity text-muted">Quantity: @item.quantity</p>
+                    <p class="card-text category text-primary" data-cat-id="@item.cateogryId">@item.Category.Name</p>
+                </div>
+                <div class="card-footer d-flex justify-content-between">
+                    <button class="btn btn-sm btn-primary edit-btn">Edit</button>
+                    <a class="btn btn-sm btn-danger" asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+                </div>
+            </div>
+        </div>
+    }
+</div>
+
+@if (TempData["Error"] != null)
+{
+    <div class="alert alert-danger">@TempData["Error"]</div>
+}
+@if (TempData["Success"] != null)
+{
+    <div class="alert alert-success">@TempData["Success"]</div>
+}
+
+<form id="updateForm" method="post" asp-action="Update" enctype="multipart/form-data">
+    <input type="hidden" name="Id" id="menuId" />
+    <input type="hidden" name="Name" id="menuName" />
+    <input type="hidden" name="Price" id="menuPrice" />
+    <input type="hidden" name="Description" id="menuDescription" />
+    <input type="file" name="ImageFile" id="menuImage" style="display: none;" />
+    <input type="hidden" name="quantity" id="menuquantity">
+</form>
+<script>
+    window.categoriesData = @Html.Raw(System.Text.Json.JsonSerializer.Serialize(ViewBag.Categories));
+</script>
+<script src="~/js/Meneu-view.js"></script>

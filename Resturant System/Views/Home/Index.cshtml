@@ -1,0 +1,118 @@
+﻿@{
+    ViewData["Title"] = "Dashboard";
+}
+
+<div class="container my-5">
+    <h2 class="mb-4 text-center">📊 Restaurant Dashboard</h2>
+
+    <div class="row g-4 text-center">
+        <div class="col-md-3">
+            <div class="card border-0 shadow rounded-4">
+                <div class="card-body">
+                    <h6 class="text-muted">Items to Reorder</h6>
+                    <h3 class="fw-bold text-warning">@ViewBag.ItemsToReorder</h3>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card border-0 shadow rounded-4">
+                <div class="card-body">
+                    <h6 class="text-muted">Upcoming Reservations</h6>
+                    <h3 class="fw-bold text-info">@ViewBag.UpcomingReservations</h3>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card border-0 shadow rounded-4">
+                <div class="card-body">
+                    <h6 class="text-muted">Pending KOT</h6>
+                    <h3 class="fw-bold text-danger">@ViewBag.PendingKOT</h3>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card border-0 shadow rounded-4">
+                <div class="card-body">
+                    <h6 class="text-muted">Today's Revenue</h6>
+                    <h3 class="fw-bold text-success">@ViewBag.TodayRevenue.ToString("C")</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row g-4 text-center my-5">
+        <div class="col-md-6">
+            <div class="card border-0 shadow rounded-4">
+                <div class="card-body">
+                    <h5 class="card-title">📈 Sales Trend (Today)</h5>
+                    <canvas id="salesTrendChart" height="200"></canvas>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-6">
+            <div class="card border-0 shadow rounded-4">
+                <div class="card-body">
+                    <h5 class="card-title">⏰ Peak Order Hours</h5>
+                    <canvas id="peakHoursChart" height="200"></canvas>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row g-4 text-center mt-4">
+        <div class="col-md-3">
+            <a class="btn btn-outline-primary w-100 py-3" asp-action="Create" asp-controller="Order">➕ New Order</a>
+        </div>
+        <div class="col-md-3">
+            <a href="#" class="btn btn-outline-secondary w-100 py-3">📅 Reserve Table</a>
+        </div>
+        <div class="col-md-3">
+            <a class="btn btn-outline-success w-100 py-3" asp-action="Additem" asp-controller="Menue">🍽 Add Menu Items</a>
+        </div>
+        <div class="col-md-3">
+            <a class="btn btn-outline-dark w-100 py-3" asp-action="ViewItems" asp-controller="Menue">📋 View Menu Items</a>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+    <script>
+        async function loadChart(endpoint, canvasId, label, chartType, labelField, valueField) {
+            const res = await fetch(endpoint);
+            const data = await res.json();
+
+            const labels = data.map(x => x[labelField]);
+            const values = data.map(x => x[valueField]);
+
+            new Chart(document.getElementById(canvasId).getContext('2d'), {
+                type: chartType,
+                data: {
+                    labels: labels,
+                    datasets: [{
+                        label: label,
+                        data: values,
+                        backgroundColor: 'rgba(54, 162, 235, 0.5)',
+                        borderColor: 'rgba(54, 162, 235, 1)',
+                        borderWidth: 1
+                    }]
+                },
+                options: {
+                    scales: {
+                        y: {
+                            beginAtZero: true
+                        }
+                    }
+                }
+            });
+        }
+
+        document.addEventListener('DOMContentLoaded', () => {
+            loadChart('/Home/GetSalesTrend', 'salesTrendChart', 'Sales ($)', 'line', 'hour', 'total');
+        loadChart('/Home/GetPeakHours', 'peakHoursChart', 'Order Count', 'bar', 'hour', 'count');
+
+                });
+    </script>
+}

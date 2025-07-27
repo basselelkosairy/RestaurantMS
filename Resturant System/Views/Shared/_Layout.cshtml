@@ -1,0 +1,202 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Restaurant Management</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+    @RenderSection("Styles",required:false)
+
+
+    <style>
+        body {
+            font-family: 'Segoe UI', sans-serif;
+            background-color: #f8f9fa;
+        }
+
+        .wrapper {
+            display: flex;
+            min-height: 100vh;
+        }
+
+        .sidebar {
+            width: 250px;
+            background-color: #1c1e33;
+            color: white;
+            flex-shrink: 0;
+            transition: all 0.3s;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+            .sidebar.collapsed {
+                width: 70px;
+            }
+
+        .sidebar-header {
+            padding: 20px;
+            font-size: 1.5rem;
+            font-weight: bold;
+            text-align: center;
+            border-bottom: 1px solid #333;
+            white-space: nowrap;
+            overflow: hidden;
+        }
+
+        .nav-link {
+            color: #bdbdbd;
+            padding: 15px 20px;
+            font-weight: 500;
+            transition: 0.3s;
+            white-space: nowrap;
+            overflow: hidden;
+        }
+
+            .nav-link:hover,
+            .nav-link.active {
+                background-color: #ff5722;
+                color: white;
+                border-radius: 10px;
+            }
+
+        .submenu .nav-link {
+            padding-left: 50px;
+            font-size: 0.95rem;
+        }
+
+        .sidebar-footer {
+            padding: 15px 20px;
+            background-color: #15182b;
+            border-top: 1px solid #333;
+            display: flex;
+            align-items: center;
+            white-space: nowrap;
+            overflow: hidden;
+        }
+
+            .sidebar-footer img {
+                width: 35px;
+                height: 35px;
+                border-radius: 50%;
+                margin-right: 10px;
+            }
+
+        .content {
+            flex-grow: 1;
+            padding: 20px;
+        }
+
+        .toggle-btn {
+            position: fixed;
+            left: 15px;
+            top: 15px;
+            z-index: 1001;
+            background-color: #ff5722;
+            border: none;
+            color: white;
+            font-size: 1.5rem;
+            border-radius: 5px;
+            padding: 5px 10px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <button class="toggle-btn d-lg-none" id="toggleSidebar">
+        <i class="bi bi-list"></i>
+    </button>
+
+    <div class="wrapper">
+        <div class="sidebar" id="sidebar">
+            <div>
+                <div class="sidebar-header">
+                    Restaurants
+                </div>
+                <nav class="nav flex-column">
+
+                    <a class="nav-link active" asp-action="index" asp-controller="Home">
+                        <i class="bi bi-speedometer2 me-2"></i> <span class="menu-text">Dashboard</span>
+                    </a>
+
+                    <a class="nav-link" data-bs-toggle="collapse" href="#Order" role="button" aria-expanded="false" aria-controls="Order">
+                        <i class="bi bi-egg-fried me-2"></i> <span class="menu-text">Orders</span>
+                        <i class="bi bi-chevron-down float-end"></i>
+                    </a>
+                    <div class="collapse submenu" id="Order">
+                        <a class="nav-link" asp-action="index" asp-controller="Order">all orders</a> <a class="nav-link" asp-action="create" asp-controller="Order">Add order</a>
+                
+                    </div>
+
+                    <a class="nav-link" data-bs-toggle="collapse" href="#Cateogry" role="button" aria-expanded="false" aria-controls="Cateogry">
+                        <i class="bi bi-egg-fried me-2"></i> <span class="menu-text">Categories</span>
+                        <i class="bi bi-chevron-down float-end"></i>
+                    </a>
+                    <div class="collapse submenu" id="Cateogry">
+                        <a class="nav-link" asp-action="index" asp-controller="Categories">all Cateogries</a> <a class="nav-link" asp-action="create" asp-controller="Categories">Add Cateogry</a>
+
+                    </div>
+
+
+                    <a class="nav-link" data-bs-toggle="collapse" href="#kotSubmenu" role="button" aria-expanded="false" aria-controls="kotSubmenu">
+                        <i class="bi bi-egg-fried me-2"></i> <span class="menu-text">Menue</span>
+                        <i class="bi bi-chevron-down float-end"></i>
+                    </a>
+                    <div class="collapse submenu" id="kotSubmenu">
+                        <a class="nav-link" asp-action="ViewItems" asp-controller="Menue">View Items</a>  <a class="nav-link" asp-action="Additem" asp-controller="Menue">Add Items</a>
+
+                    
+                    </div>
+                    <a class="nav-link" data-bs-toggle="collapse" href="#Reservation" role="button" aria-expanded="false" aria-controls="Reservation">
+                        <i class="bi bi-egg-fried me-2"></i> <span class="menu-text">Reservation</span>
+                        <i class="bi bi-chevron-down float-end"></i>
+                    </a>
+                    <div class="collapse submenu" id="Reservation">
+                        <a class="nav-link" asp-action="Create" asp-controller="Reservation">Reserve</a>  <a class="nav-link" asp-action="Additem" asp-controller="Menue">Add Items</a>
+
+
+                    </div>
+
+              
+
+                    <a class="nav-link" href="#">
+                        <i class="bi bi-gear me-2"></i> <span class="menu-text">Settings</span>
+                    </a>
+
+                </nav>
+            </div>
+
+            <!-- User Footer -->
+            <div class="sidebar-footer">
+                <img src="" >
+            </div>
+        </div>
+
+        <div class="content">
+          
+            @RenderBody()
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        const toggleBtn = document.getElementById('toggleSidebar');
+        const sidebar = document.getElementById('sidebar');
+        toggleBtn.addEventListener('click', () => {
+            sidebar.classList.toggle('collapsed');
+        });
+    </script>
+    @RenderSection("Scripts", required: false)
+
+    @section Scripts {
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.5/dist/jquery.validate.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/jquery-validation-unobtrusive@3.2.12/dist/jquery.validate.unobtrusive.min.js"></script>
+    }
+
+</body>
+
+</html>
